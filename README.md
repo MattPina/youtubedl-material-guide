@@ -2,8 +2,6 @@
 
 > A comprehensive guide for YoutubeDL-Material - A powerful self-hosted YouTube downloader built with Material Design
 
-![YoutubeDL-Material Logo](https://raw.githubusercontent.com/Tzahi12345/YoutubeDL-Material/master/backend/assets/ytdl.png)
-
 *This repository was created with the assistance of MCP from Claude AI to provide comprehensive documentation and guidance for YoutubeDL-Material.*
 
 ## 📋 Table of Contents
@@ -50,9 +48,9 @@ YoutubeDL-Material is a sleek, modern, and feature-rich self-hosted YouTube down
 ### Method 1: Docker (Recommended)
 ```bash
 docker pull tzahi12345/youtubedl-material
-docker run -d \\
-    -p 8998:17442 \\
-    -v /path/to/downloads:/app/audio \\
+docker run -d \
+    -p 8998:17442 \
+    -v /path/to/downloads:/app/audio \
     tzahi12345/youtubedl-material
 ```
 
